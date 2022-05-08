@@ -8,6 +8,9 @@ $(document).ready(function() {
     // Display urgent message on tasks
     $('.tooltipped').tooltip();
 
+    // Add task form dropdown
+    $('select').formSelect();
+
     // Select date when creating tasks
     $('.datepicker').datepicker({
         format: "dd mmmm, yyyy",
